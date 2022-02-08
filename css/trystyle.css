@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-bar{
+    background: #fef7f6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.upper-case{
+    text-transform: uppercase;
+}
+
+.lower-case{
+    text-transform: lowercase;
+}
+.set-width {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.top-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11pt;
+    padding: 9px 0;
+}
+
+.top-bar-wrapper ul li {
+    display: inline-block;
+    padding: 0 23px;
+    border-right: 1px solid black;
+}
+
+.top-bar-wrapper ul li a {
+    color: #000000;
+    transition: 0.3s;
+}
+
+.top-bar-wrapper ul li:last-child{
+    padding-right: 0;
+    border-right: none;
+}
+
+.top-bar-wrapper ul li:first-child{
+    padding-left: 0;
+}
+
+.top-bar-wrapper ul li a:hover {
+    color: rgb(75, 75, 75);
+    transition: 0.3s;
+}
+/* end of top-bar */
+
+.nav-bar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 0;
+
+}
+
+.nav-bar-wrapper ul li{
+    display: inline-block;
+}
+
+.nav-bar-wrapper p.logo {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.nav-bar-wrapper p.logo::after{
+    content:".";
+    color: #ff5454;
+}
+
+.nav-bar-wrapper ul {
+    align-items: center;
+}
+
+ul.menu-items li {
+    margin-right: 40px;
+    font-size: 13pt;
+    font-weight: 600;
+
+}
+
+ul.side-menu-items li {
+    margin-right: 30px;
+    position: relative;
+}
+
+.nav-bar-wrapper ul li:last-child{
+    margin-right: 0px;
+}
+
+.alert-circle{
+    background: #ff5454;
+    font-size: 8px;
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -9px;
+    left: 10px;
+}
+/* end of nav-bar */
+
+.banner-wrapper {
+    height: 120px;
+}
+
+.main-banner{
+    position: relative;
+    background: peachpuff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-banner img{
+    width: 100%;
+    min-height: 400px;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 0;
+    padding-left: 275px;   
+}
+
+.banner-wrapper {
+    position: absolute;
+    top: 0;
+    background-color: mediumaquamarine;
+    height: auto;
+    left: 16%;
+}
+
+a.button {
+    margin-top: 15px !important;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+}

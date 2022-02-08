@@ -1,0 +1,23 @@
+@media (max-width: 1140px){
+    .top-bar{
+        display: none;
+    }
+
+    .nav-bar{
+        padding: 0 50px;
+    }
+
+    .banner-wrapper {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 960px){
+    .nav-bar .menu-items {
+        display: none;
+    }
+
+    .nav-bar i {
+        display: block;
+    }
+}

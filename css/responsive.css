@@ -1,0 +1,58 @@
+@media (max-width: 1200px){
+    .top-bar{
+        display: none;
+    }
+
+    .nav-bar{
+        padding: 0 50px;
+    }
+
+    .banner-wrapper {
+        padding: 0 50px;
+    }
+
+    .featured-product {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .nav-bar .menu-items {
+        display: none;
+    }
+
+    .nav-bar i {
+        display: block;
+    }
+
+    .featured-product{
+        background: blanchedalmond
+    }
+    
+
+    .cards-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+
+    .card:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 960px){
+    .nav-bar .menu-items {
+        display: none;
+    }
+
+    .nav-bar i {
+        display: block;
+    }
+}
