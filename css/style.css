@@ -308,3 +308,26 @@ a.button{
 button.owl-dot.active {
     background: #ff5454;
 }
+
+.trending-body{
+    display: grid;
+    grid-template-columns: repeat(4, auto); 
+    gap: 0 20px;
+}
+
+.trending-body .card {
+    width: 100%; 
+}
+
+.features-body{
+    display: grid;
+    grid-template: repeat(4, auto);
+}
+
+.f-card {
+    grid-row: 1/5;
+}
+
+.our-features {
+    text-align: center;
+}

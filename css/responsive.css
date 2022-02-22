@@ -45,6 +45,13 @@
         margin-bottom: 0;
     }
 
+    .trending-body{
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+        gap: 0 20px;
+    }
+    
+
 }
 
 @media (max-width: 960px){
