@@ -101,6 +101,13 @@ a {
     align-items: center;
 }
 
+.bars{
+    .bar{
+        width: 35px; height: 6px; background: #000;
+        margin-top: 5px;
+    }
+}
+
 ul.menu-items li {
     margin-right: 40px;
     font-size: 13px;
@@ -112,8 +119,12 @@ ul.side-menu-items li {
     position: relative;
 }
 
-.nav-bar-wrapper ul li:last-child{
-    margin-right: 0px;
+.nav-inner-wrapper{
+    display: flex; justify-content: space-between; background: white; flex-grow: 2; margin-left: 150px;
+}
+
+.bars{
+    display: none;
 }
 
 .alert-circle{
@@ -142,11 +153,9 @@ ul.side-menu-items li {
 
 .banner-wrapper{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: row;
     width: 100%;
 }
 
@@ -164,7 +173,7 @@ p.subhead{
 }
 
 .right-side {
-    width: 50%;
+  width: 50%;
 }
 
 .right-side img {
@@ -199,7 +208,7 @@ a.button{
 .cards-row {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+
 }
 
 .img-container {
@@ -456,5 +465,12 @@ button.owl-dot.active {
         }
     }
 
+    footer{
+        background: rgb(214, 216, 217);
+        padding: 20px;
+        text-align: center;
+        font-weight: medium;
+        color: rgb(136, 136, 136);
+    }
 
 @import "responsive";

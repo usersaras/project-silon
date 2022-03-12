@@ -19,3 +19,10 @@ $(document).ready(function(){
     }
     });
   });
+
+  document.getElementById("toggle-menu").addEventListener("click", displayMenu)
+
+  function displayMenu(){
+      console.log(  document.getElementsByClassName("nav-inner-wrapper"));
+      document.getElementsByClassName("nav-inner-wrapper")[0].classList.toggle("nav-inner-wrapper-res")
+  }

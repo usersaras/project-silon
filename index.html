@@ -38,9 +38,17 @@
 
   <section class="nav-bar">
     <div class="nav-bar-wrapper set-width">
+      <div class="responsive-navbar">
       <p class="logo">Silon</p>
 
-      <i class="fa fa-bars"></i>
+      <div class="bars" id="toggle-menu" style="z-index: 999">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+<div class="nav-inner-wrapper">
+    
       <ul class="menu-items upper-case">
         <li>Home</li>
         <li>Shop</li>
@@ -60,6 +68,7 @@
           <i class="far fa-heart"></i><span class="alert-circle">3</span>
         </li>
       </ul>
+    </div>
     </div>
   </section>
 
@@ -84,7 +93,7 @@
   <section class="featured-product p-100">
     <div class="featured-product-container set-width">
       <div class="heading upper-case">
-        <h2>Featured Product</h2>
+        <h2>Featured Products</h2>
       </div>
 
       <div class="cards-row">
@@ -271,7 +280,7 @@
     </div>
   </section>
 
-  <section class="our-features">
+  <section class="our-features p-100">
     <div class="set-width features-body">
       <div class="f-card">
         <i class="fa fa- fa-2x fa-dollar-sign"></i>
@@ -562,6 +571,10 @@
      
   </div>
   </section>
+  
+  <footer>
+    <span>Copyright &copy; 2022 | All Rights Reserved</span>
+  </footer>
 
 
   <script src="js/jquery-3.6.0.min.js"></script>
